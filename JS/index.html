@@ -9,31 +9,56 @@
     
 <script>
 
-    function add7 (param) {
-        return param + 7;
-    }
+//     function add7 (param) {
+//         return param + 7;
+//     }
 
-    console.log(add7(687));
-
-
-    function multiply (int1, int2){
-        return int1 * int2
-    }
-
-    console.log(multiply(1,10));
+//     console.log(add7(687));
 
 
-    function capitalize(str) {
-     if (typeof str !== "string" || str.length === 0) {
-    return "";
-  }
+//     function multiply (int1, int2){
+//         return int1 * int2
+//     }
+
+//     console.log(multiply(1,10));
+
+
+//     function capitalize(str) {
+//      if (typeof str !== "string" || str.length === 0) {
+//     return "";
+//   }
 
  
-  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+//   return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+// }
+
+
+// console.log(capitalize("yeLLow")); 
+
+
+function add7(num) {
+    return num + 7
 }
+console.log(add7(7))
 
 
-console.log(capitalize("yeLLow")); 
+
+function multiply(param1, param2){
+    return param1 * param2
+}
+console.log(multiply(7,7));
+
+
+function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase(); 
+}
+console.log(capitalize("lost"));
+
+
+function lastLetter(str) {
+  return str.charAt(str.length - 1);
+}
+console.log(lastLetter('ded'));
 
 </script>
 
